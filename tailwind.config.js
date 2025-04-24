@@ -10,9 +10,21 @@ module.exports = {
       },
       fontFamily: {
         Eczar: ["Eczar", "serif"],
-        work_sans: ["Work Sans", "sans-serif"]
-       },
+        work_sans: ["Work Sans", "sans-serif"],
+        sans: ['Inter', 'sans-serif']
+
+      },
     },
   },
   plugins: [],
 }
+
+theme: {
+  extend: {
+    fontFamily: {
+      sans: ['Inter', 'sans-serif']
+    }
+  }
+}
+
+
